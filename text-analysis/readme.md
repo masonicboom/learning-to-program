@@ -24,7 +24,7 @@ First, read the rest of the problems in this section, but before attempting them
 
 #### 1.3.1
 
-Go to http://www.rubular.com/r/rrOJfHVq7R, and change the "COMPLETE ME" text in the "Your regular expression:" field so that the "Match Captures:" section shows exactly three results: "m", "m", and "m". Use exactly one character within the parentheses.
+Go to http://www.rubular.com/r/rrOJfHVq7R, and change the "COMPLETE ME" text in the "Your regular expression:" field so that the "Match Captures:" section shows exactly three results: "m", "m", and "m". Use exactly one character within the parentheses, e.g. "(;)" (which won't work).
 
 #### 1.3.2
 
@@ -40,7 +40,7 @@ Change the text in the parentheses so the "Match Captures:" section shows exactl
 
 #### 1.3.5
 
-Change the text in the parentheses so the "Match Captures:" section shows exactly two results: " and !" (quotes omitted because the results contain quotes). Use exactly three characters within the parentheses, and change only one character from.
+Change the text in the parentheses so the "Match Captures:" section shows exactly two results: " and !" (quotes omitted because the results contain quotes). Use exactly three characters within the parentheses, changing only one from 1.3.4.
 
 #### 1.3.6
 
