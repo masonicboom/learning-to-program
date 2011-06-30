@@ -15,7 +15,7 @@ Download The Count of Monte Cristo from Project Gutenberg. Put it into this dire
 
 ### 1.2
 
-Create a file named "a1.rb". Within that file, define a function named "text" that returns the text of The Count of Monte Cristo in one long string.
+Create a file named "count.rb". Within that file, define a function named "text" that returns the text of The Count of Monte Cristo in one long string.
 
 
 ### 1.3
@@ -44,7 +44,7 @@ Change the text in the parentheses so the "Match Captures:" section shows exactl
 
 #### 1.3.6
 
-Within "a1.rb", define a function named "words" that returns an array containing each word in the text of The Count of Monte Cristo, with no non-word characters included.
+Within "count.rb", define a function named "words" that returns an array containing each word in the text of The Count of Monte Cristo, with no non-word characters included.
 
 
 ### 1.4
@@ -75,7 +75,7 @@ Reading http://www.ruby-doc.org/core/classes/Hash.html#M000718 might clue you in
 
 #### 1.4.5
 
-Within "a1.rb", define a function named "count" that returns a hash with each word in The Count of Monte Cristo as a key, and the values set to the number of times each corresponding word appears in The Count of Monte Cristo.
+Within "count.rb", define a function named "count" that returns a hash with each word in The Count of Monte Cristo as a key, and the values set to the number of times each corresponding word appears in The Count of Monte Cristo.
 
 
 ### 1.5
