@@ -149,3 +149,52 @@ Within "count.rb", define a function named "sort" that returns an array in which
 #### 1.5.15
 
 Print the first 10 elements returned by the sort function. Note: this problem is not tested by tester.rb, but you should have no problem doing it correctly.
+
+
+### 1.6 Focused statistical analysis
+
+TODO: assign reading about functions and default arguments, nil and testing for it, and idiom.
+
+#### 1.6.1
+
+Launch irb. Define a function "f(x)" that returns x. Run "f(3)"; you should see the output "3". Run "f()" (no argument); you should receive an error.
+
+#### 1.6.2
+
+Define a function "g(x)", with the argument x having a default value of "nil", that returns x. Run "g(3)"; you should see the output "3". Run "g()" (no argument); you should see the output "nil".
+
+#### 1.6.3
+
+Define a function "h(x)", with the argument x having a default value of "nil", that sets x to "undefined" if x is nil, then returns x. Run "g(3)"; you should see the output "3". Run "g()" (no argument); you should see the output "undefined".
+
+TODO: Hint about ||= idiom.
+
+#### 1.6.4
+
+Within "count.rb", change the sort function, so it has a single argument "unsorted_count", with a default value of nil. Change the sort function so that if unsorted_count is nil, its value is set to the return value of the count function. At this point, tester.rb should show "1.5 OK", as before; if it did before but doesn't now, you screwed something up here.
+
+#### 1.6.5
+
+Back in irb, enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that returns an array of all elements in a that are greater than 2. You should see the output "[3, 4]".
+
+#### 1.6.6
+
+Enter this text: h = { 'a' => 1, 'b' => 3, 'c' => 2, 'd' => 4 }. Write an expression that returns a hash of all key => value mappings in h for which the value is greater than 2. You should see the output *{"b"=>3, "d"=>4}*.
+
+#### 1.6.7
+
+Enter this text: h = { 'ant' => 1, 'bird' => 3, 'chimp' => 2, 'dinosaur' => 4 }. Write an expression that returns a hash of all key => value mappings in h for which the key is greater than 4 characters in length. You should see the output *{"chimp"=>2, "dinosaur"=>4}*.
+
+#### 1.6.7
+
+Within "count.rb", define a function named "filtered_sort" that returns an array in which each element is a pair having as the first element a word from The Count of Monte Cristo, and as the second element, the number of times that word occurs in the book; the array must be sorted from greatest number of word occurrences to least; the array must only include words that are 10 characters or more in length.
+
+#### 1.6.8
+
+that that returns an array in which each element is a pair having as the first element a word from The Count of Monte Cristo, and as the second element, the number of times that word occurs in the book; the array must be sorted from greatest number of word occurrences to least.
+
+Print the first 10 elements returned by the filtered_sort function. Note: this problem is not tested by tester.rb, but you should have no problem doing it correctly.
+
+#### 1.6.9
+
+Read off the answer to the original question of the assignment, using the output of 1.6.8. If tester.rb tells you "1.6 OK", your output in 1.6.8 was correct and you got it right.

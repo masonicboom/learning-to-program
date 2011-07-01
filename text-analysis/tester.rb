@@ -4,6 +4,7 @@ require 'digest/md5'
 TEXT_HASH = '6dc98b0080e4de5c9705a4dc984b81a1'
 WORDS_HASH = '1557ef4dc457eaf7349803b3685319ad'
 COUNT_HASH = '143111b6b5ed85477eab06fe01e851e2'
+FILTERED_SORT_HASH = 'd11cbcecb2a326d5aa91dfefeca2b1b0'
 
 
 def section(name)
@@ -87,4 +88,16 @@ section '1.5' do
     raise 'sort function does not sort elements correctly' if n > prev
     prev = n
   end
+end
+
+
+section '1.6' do
+  begin
+    fs = filtered_sort
+    hash = Digest::MD5.hexdigest fs.first.first
+  rescue
+    raise 'error running filtered_sort function'
+  end
+  
+  raise 'filtered_sort function is incorrect' unless hash == FILTERED_SORT_HASH
 end
