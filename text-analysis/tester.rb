@@ -67,3 +67,24 @@ section '1.4' do
   
   raise 'count function is incorrect' unless hash == COUNT_HASH
 end
+
+
+section '1.5' do
+  # At this point, the count function is assumed to be correct.
+  
+  begin
+    s = sort
+  rescue
+    raise 'error running sort function'
+  end
+  
+  unless s.map { |w, n| w }.sort == words.uniq.sort
+    raise 'sort function does not contain all and only the expected words'
+  end
+
+  prev = s.first.last
+  s.each do |w, n|
+    raise 'sort function does not sort elements correctly' if n > prev
+    prev = n
+  end
+end

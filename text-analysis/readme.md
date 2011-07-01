@@ -80,4 +80,70 @@ Within "count.rb", define a function named "count" that returns a hash with each
 
 ### 1.5
 
-Coming soon...
+Read the sections on Blocks and Block Arguments in http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html.
+
+Refer to http://www.ruby-doc.org/core/classes/Array.html and http://www.ruby-doc.org/core/classes/Hash.html.
+
+#### 1.5.1
+
+Open a terminal and run irb. Enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that prints each value in a, in order. You should see "1", "3", "2", "4" printed.
+
+#### 1.5.2
+
+Write an expression that prints the first 3 elements of a as an array. You should see "[1, 3, 2]" printed.
+
+#### 1.5.3
+
+Write an expression that prints each value in a, multiplied by 2. You should see "2", "6", "4", "8" printed.
+
+#### 1.5.4
+
+Write an expression that prints the values in a, sorted from least to greatest. You should see "1", "2", "3", "4" printed.
+
+#### 1.5.5
+
+Write an expression that prints the values in a, sorted from greatest to least. You should see "4", "3", "2", "1" printed.
+
+#### 1.5.6
+
+Write an expression that prints the values in a, sorted from least to greatest, then multiplied by 2. You should see "2", "4", "6", "8" printed.
+
+#### 1.5.7
+
+Write an expression that prints the values in a, multiplied by 2, then sorted from least to greatest. The output should be identical output to 1.5.6.
+
+#### 1.5.8
+
+Enter this text: h = { 'a' => 1, 'b' => 3, 'c' => 2, 'd' => 4 }. Write an expression that prints each key in h. You should see "a", "b", "c", "d" printed.
+
+#### 1.5.9
+
+Write an expression that prints each value in h. You should see "1", "3", "2", "4" printed.
+
+#### 1.5.10
+
+Write an expression that prints each key in h. You should see "a", "b", "c", "d" printed.
+
+##### 1.5.11.1
+
+Assign the value "x" to a variable named "k", and the value "99" to a variable named "v". Form an array with k as the first element, and v as the second. Print that "pair" as an array. You should see "['x' 99]" printed.
+
+##### 1.5.11.2
+
+Write an expression that prints each key-value pair in h. You should see something like "['a' 1]", "['b' 3]", "['c' 2]", "['d' 4]" printed.
+
+#### 1.5.12
+
+Write an expression that prints each key-value pair in h, sorted from least to greatest by value. You should see "['a' 1]", "['c' 2]", "['b' 3]", "['d' 4]" printed.
+
+#### 1.5.13
+
+Write an expression that prints each key-value pair in h, sorted from greatest to least by value. You should see "['d' 4]", "['b' 3]", "['c' 2]", "['a' 1]" printed.
+
+#### 1.5.14
+
+Within "count.rb", define a function named "sort" that returns an array in which each element is a pair having as the first element a word from The Count of Monte Cristo, and as the second element, the number of times that word occurs in the book; the array must be sorted from greatest number of word occurrences to least.
+
+#### 1.5.15
+
+Print the first 10 elements returned by the sort function. Note: this problem is not tested by tester.rb, but you should have no problem doing it correctly.
