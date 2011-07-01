@@ -8,17 +8,17 @@ In The Count of Monte Cristo, what is the most frequently occurring word of 10 l
 Run the script "tester.rb" at any point to have your progress checked automatically. Do it now. You should see "1.1 FAILED", which tells you it's time to solve problem 1.1.
 
 
-### 1.1
+### 1.1 Data retrieval
 
 Download The Count of Monte Cristo from Project Gutenberg. Put it into this directory, and name it "comc.txt".
 
 
-### 1.2
+### 1.2 Conversion to machine-readable form
 
 Create a file named "count.rb". Within that file, define a function named "text" that returns the text of The Count of Monte Cristo in one long string.
 
 
-### 1.3
+### 1.3 Transformation to appropriate data structure
 
 First, read the rest of the problems in this section, but before attempting them, read http://strugglingwithruby.blogspot.com/2009/05/regular-expressions-in-ruby.html and http://www.regular-expressions.info/ruby.html.
 
@@ -47,7 +47,7 @@ Change the text in the parentheses so the "Match Captures:" section shows exactl
 Within "count.rb", define a function named "words" that returns an array containing each word in the text of The Count of Monte Cristo, with no non-word characters included.
 
 
-### 1.4
+### 1.4 Generation of statistics
 
 Read http://mislav.uniqpath.com/poignant-guide/book/chapter-4.html.
 
@@ -78,7 +78,7 @@ Reading http://www.ruby-doc.org/core/classes/Hash.html#M000718 might clue you in
 Within "count.rb", define a function named "count" that returns a hash with each word in The Count of Monte Cristo as a key, and the values set to the number of times each corresponding word appears in The Count of Monte Cristo.
 
 
-### 1.5
+### 1.5 Basic statistical analysis
 
 Read the sections on Blocks and Block Arguments in http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html.
 
