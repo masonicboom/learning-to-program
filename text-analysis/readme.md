@@ -80,9 +80,11 @@ Within "count.rb", define a function named "count" that returns a hash with each
 
 ### 1.5 Basic statistical analysis
 
-Read the sections on Blocks and Block Arguments in http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html.
+Read the sections on Blocks, Block Arguments, Ranges, Arrays, and Hashes in http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html.
 
 Refer to http://www.ruby-doc.org/core/classes/Array.html and http://www.ruby-doc.org/core/classes/Hash.html.
+
+http://pine.fm/LearnToProgram/?Chapter=07 may also be helpful.
 
 #### 1.5.1
 
