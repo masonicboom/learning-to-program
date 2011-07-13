@@ -193,8 +193,6 @@ Within "count.rb", define a function named "filtered_sort" that returns an array
 
 #### 1.6.8
 
-that that returns an array in which each element is a pair having as the first element a word from The Count of Monte Cristo, and as the second element, the number of times that word occurs in the book; the array must be sorted from greatest number of word occurrences to least.
-
 Print the first 10 elements returned by the filtered_sort function. Note: this problem is not tested by tester.rb, but you should have no problem doing it correctly.
 
 #### 1.6.9
