@@ -153,7 +153,11 @@ Print the first 10 elements returned by the sort function. Note: this problem is
 
 ### 1.6 Focused statistical analysis
 
-TODO: assign reading about functions and default arguments, nil and testing for it, and idiom.
+Read the sections on Method Definitions, Return Values, and Default Values at http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Method_Calls#Method_Definitions.
+
+Read section 2 at http://mislav.uniqpath.com/poignant-guide/book/chapter-4.html.
+
+Read the section on Conditional Assignment at http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Operators#1._Assignment; this isn't essential, but you might find a use for it.
 
 #### 1.6.1
 
@@ -166,8 +170,6 @@ Define a function "g(x)", with the argument x having a default value of "nil", t
 #### 1.6.3
 
 Define a function "h(x)", with the argument x having a default value of "nil", that sets x to "undefined" if x is nil, then returns x. Run "g(3)"; you should see the output "3". Run "g()" (no argument); you should see the output "undefined".
-
-TODO: Hint about ||= idiom.
 
 #### 1.6.4
 
