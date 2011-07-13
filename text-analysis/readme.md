@@ -24,23 +24,23 @@ First, read the rest of the problems in this section, but before attempting them
 
 #### 1.3.1
 
-Go to http://www.rubular.com/r/rrOJfHVq7R, and change the "COMPLETE ME" text in the "Your regular expression:" field so that the "Match Captures:" section shows exactly three results: "m", "m", and "m". Use exactly one character within the parentheses, e.g. "(;)" (which won't work).
+Go to http://www.rubular.com/r/rrOJfHVq7R, and change the "COMPLETE ME" text in the "Your regular expression:" field so that the "Match Captures:" section shows exactly three results: *m*, *m*, and *m*. Use exactly one character within the parentheses, e.g. "(;)" (which won't work).
 
 #### 1.3.2
 
-Change the text in the parentheses so the "Match Captures:" section shows exactly one result: "mmm". Use exactly two characters within the parentheses.
+Change the text in the parentheses so the "Match Captures:" section shows exactly one result: *mmm*. Use exactly two characters within the parentheses.
 
 #### 1.3.3
 
-Change the text in the parentheses so the "Match Captures:" section shows exactly five results: "y", "u", "m", "m", "m", and "y". Use exactly two characters within the parentheses.
+Change the text in the parentheses so the "Match Captures:" section shows exactly five results: *y*, *u*, *m*, *m*, *m*, and *y*. Use exactly two characters within the parentheses.
 
 #### 1.3.4
 
-Change the text in the parentheses so the "Match Captures:" section shows exactly one result: "yummmy". Use exactly three characters within the parentheses.
+Change the text in the parentheses so the "Match Captures:" section shows exactly one result: *yummmy*. Use exactly three characters within the parentheses.
 
 #### 1.3.5
 
-Change the text in the parentheses so the "Match Captures:" section shows exactly two results: " and !" (quotes omitted because the results contain quotes). Use exactly three characters within the parentheses, changing only one from 1.3.4.
+Change the text in the parentheses so the "Match Captures:" section shows exactly two results: *"* and *!"*. Use exactly three characters within the parentheses, changing only one from 1.3.4.
 
 #### 1.3.6
 
@@ -65,11 +65,11 @@ Make an empty hash named h.
 
 #### 1.4.4
 
-Put into h a key for each element in a, with the number 1 as each corresponding value. h should look like this when you're done: { 1 => 1, 2 => 1, 3 => 1, 5 => 1, 8 => 1 }. 
+Put into h a key for each element in a, with the number 1 as each corresponding value. h should look like this when you're done: *{ 1 => 1, 2 => 1, 3 => 1, 5 => 1, 8 => 1 }*.
 
 #### 1.4.4
 
-Re-initialize h to be an empty hash. Put into h a key for each element in a, with the number of times that element appears in a as the corresponding value. h should look like this when you're done: { 1 => 2, 2 => 1, 3 => 1, 5 => 1, 8 => 1 }.
+Re-initialize h to be an empty hash. Put into h a key for each element in a, with the number of times that element appears in a as the corresponding value. h should look like this when you're done: *{ 1 => 2, 2 => 1, 3 => 1, 5 => 1, 8 => 1 }*.
 
 Reading http://www.ruby-doc.org/core/classes/Hash.html#M000718 might clue you in to a clever way to do this. Being clever isn't necessary though.
 
@@ -88,27 +88,27 @@ http://pine.fm/LearnToProgram/?Chapter=07 may also be helpful.
 
 #### 1.5.1
 
-Open a terminal and run irb. Enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that prints each value in a, in order. You should see "1", "3", "2", "4" printed.
+Open a terminal and run irb. Enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that prints each value in a, in order. You should see *1*, *3*, *2*, *4* printed.
 
 #### 1.5.2
 
-Write an expression that prints the first 3 elements of a as an array. You should see "[1, 3, 2]" printed.
+Write an expression that prints the first 3 elements of a as an array. You should see *[1, 3, 2]* printed.
 
 #### 1.5.3
 
-Write an expression that prints each value in a, multiplied by 2. You should see "2", "6", "4", "8" printed.
+Write an expression that prints each value in a, multiplied by 2. You should see *2*, *6*, *4*, *8* printed.
 
 #### 1.5.4
 
-Write an expression that prints the values in a, sorted from least to greatest. You should see "1", "2", "3", "4" printed.
+Write an expression that prints the values in a, sorted from least to greatest. You should see *1*, *2*, *3*, *4* printed.
 
 #### 1.5.5
 
-Write an expression that prints the values in a, sorted from greatest to least. You should see "4", "3", "2", "1" printed.
+Write an expression that prints the values in a, sorted from greatest to least. You should see *4*, *3*, *2*, *1* printed.
 
 #### 1.5.6
 
-Write an expression that prints the values in a, sorted from least to greatest, then multiplied by 2. You should see "2", "4", "6", "8" printed.
+Write an expression that prints the values in a, sorted from least to greatest, then multiplied by 2. You should see *2*, *4*, *6*, *8* printed.
 
 #### 1.5.7
 
@@ -116,31 +116,31 @@ Write an expression that prints the values in a, multiplied by 2, then sorted fr
 
 #### 1.5.8
 
-Enter this text: h = { 'a' => 1, 'b' => 3, 'c' => 2, 'd' => 4 }. Write an expression that prints each key in h. You should see "a", "b", "c", "d" printed.
+Enter this text: h = { 'a' => 1, 'b' => 3, 'c' => 2, 'd' => 4 }. Write an expression that prints each key in h. You should see *a*, *b*, *c*, *d* printed.
 
 #### 1.5.9
 
-Write an expression that prints each value in h. You should see "1", "3", "2", "4" printed.
+Write an expression that prints each value in h. You should see *1*, *3*, *2*, *4* printed.
 
 #### 1.5.10
 
-Write an expression that prints each key in h. You should see "a", "b", "c", "d" printed.
+Write an expression that prints each key in h. You should see *a*, *b*, *c*, *d* printed.
 
 ##### 1.5.11.1
 
-Assign the value "x" to a variable named "k", and the value "99" to a variable named "v". Form an array with k as the first element, and v as the second. Print that "pair" as an array. You should see "['x' 99]" printed.
+Assign the value "x" to a variable named "k", and the value "99" to a variable named "v". Form an array with k as the first element, and v as the second. Print that "pair" as an array. You should see *['x' 99]* printed.
 
 ##### 1.5.11.2
 
-Write an expression that prints each key-value pair in h. You should see something like "['a' 1]", "['b' 3]", "['c' 2]", "['d' 4]" printed.
+Write an expression that prints each key-value pair in h. You should see something like *['a' 1]*, *['b' 3]*, *['c' 2]*, *['d' 4]* printed.
 
 #### 1.5.12
 
-Write an expression that prints each key-value pair in h, sorted from least to greatest by value. You should see "['a' 1]", "['c' 2]", "['b' 3]", "['d' 4]" printed.
+Write an expression that prints each key-value pair in h, sorted from least to greatest by value. You should see *['a' 1]*, *['c' 2]*, *['b' 3]*, *['d' 4]* printed.
 
 #### 1.5.13
 
-Write an expression that prints each key-value pair in h, sorted from greatest to least by value. You should see "['d' 4]", "['b' 3]", "['c' 2]", "['a' 1]" printed.
+Write an expression that prints each key-value pair in h, sorted from greatest to least by value. You should see *['d' 4]*, *['b' 3]*, *['c' 2]*, *['a' 1]* printed.
 
 #### 1.5.14
 
@@ -161,23 +161,23 @@ Read the section on Conditional Assignment at http://en.wikibooks.org/wiki/Ruby_
 
 #### 1.6.1
 
-Launch irb. Define a function "f(x)" that returns x. Run "f(3)"; you should see the output "3". Run "f()" (no argument); you should receive an error.
+Launch irb. Define a function "f(x)" that returns x. Run "f(3)"; you should see the output *3*. Run "f()" (no argument); you should receive an error.
 
 #### 1.6.2
 
-Define a function "g(x)", with the argument x having a default value of "nil", that returns x. Run "g(3)"; you should see the output "3". Run "g()" (no argument); you should see the output "nil".
+Define a function "g(x)", with the argument x having a default value of "nil", that returns x. Run "g(3)"; you should see the output *3*. Run "g()" (no argument); you should see the output *nil*.
 
 #### 1.6.3
 
-Define a function "h(x)", with the argument x having a default value of "nil", that sets x to "undefined" if x is nil, then returns x. Run "g(3)"; you should see the output "3". Run "g()" (no argument); you should see the output "undefined".
+Define a function "h(x)", with the argument x having a default value of "nil", that sets x to "undefined" if x is nil, then returns x. Run "g(3)"; you should see the output *3*. Run "g()" (no argument); you should see the output *undefined*.
 
 #### 1.6.4
 
-Within "count.rb", change the sort function, so it has a single argument "unsorted_count", with a default value of nil. Change the sort function so that if unsorted_count is nil, its value is set to the return value of the count function. At this point, tester.rb should show "1.5 OK", as before; if it did before but doesn't now, you screwed something up here.
+Within "count.rb", change the sort function, so it has a single argument "unsorted_count", with a default value of nil. Change the sort function so that if unsorted_count is nil, its value is set to the return value of the count function. At this point, tester.rb should show *1.5 OK*, as before; if it did before but doesn't now, you screwed something up here.
 
 #### 1.6.5
 
-Back in irb, enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that returns an array of all elements in a that are greater than 2. You should see the output "[3, 4]".
+Back in irb, enter this text: a = [ 1, 3, 2, 4 ]. Write an expression that returns an array of all elements in a that are greater than 2. You should see the output *[3, 4]*.
 
 #### 1.6.6
 
